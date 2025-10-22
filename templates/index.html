@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎬 Movie Recommender</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie Recommendation System</h1>
+    <p class="subtitle">Find movies similar to your favorite ones!</p>
+
+    <div class="search-box">
+      <input type="text" id="movieInput" placeholder="Type a movie name (e.g. Toy Story)" />
+      <button onclick="getRecommendations()">Search</button>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
